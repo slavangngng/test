@@ -4,6 +4,7 @@ t=Turtle()
 t.color('blue')
 t.shape('circle')
 t.width(5)
+t.speed(0)
 
 def red():
     t.color('red')
@@ -54,8 +55,8 @@ scr.onkey(move_right, 'Right')
 scr.onkey(red,'r')
 scr.onkey(green,'g')
 scr.onkey(blue,'b')
-scr.onkey(eraser,'backspace')
+scr.onkey(eraser,'BackSpace')
 scr.onkey(t.begin_fill,'v')
 scr.onkey(t.end_fill,'e')
 
-maimloop()
+mainloop()
