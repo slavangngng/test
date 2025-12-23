@@ -14,7 +14,7 @@ g - color green
 
 b - blue
 
-b - begin fill
+v - begin fill
 
 e - end fill
 
