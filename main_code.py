@@ -18,7 +18,7 @@ def blue():
     t.width(5)
 
 def eraser():
-    t.width(10)
+    t.width(20)
     t.color('white','grey')
 
 def move(x,y):
@@ -51,9 +51,11 @@ scr.onkey(move_up, 'Up')
 scr.onkey(move_left, 'Left')
 scr.onkey(move_right, 'Right')
 
-scr.onkey(red,'R')
-scr.onkey(green,'G')
-scr.onkey(blue,'B')
+scr.onkey(red,'r')
+scr.onkey(green,'g')
+scr.onkey(blue,'b')
 scr.onkey(eraser,'backspace')
-scr.onkey(t.begin_fill,'b')
+scr.onkey(t.begin_fill,'v')
 scr.onkey(t.end_fill,'e')
+
+maimloop()
