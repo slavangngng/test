@@ -1,4 +1,4 @@
-# test
+# instruction
 right arrow - right
 
 left arroe - left
